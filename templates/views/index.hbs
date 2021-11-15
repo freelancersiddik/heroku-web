@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+{{>links}}
+{{!-- {{>styles}} --}}
+</head>
+{{>nav}}
+<!-- main body -->
+<div class="container-fluid main_header_Body">
+    <div class="row flex_box">
+        <div class="col-md-10 col-12 mx-auto ">
+            <div class="row g-3">
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome To weather app</p>
+                    <h3>Get The Latest <span>Weather</span> Info Of Your City</h2>
+                        <a href="/weather"><button class="btn btn-success">Check Now</button> </a>
+                </div>
+                <div class="col-md-6 col-12 main_header_right">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image/slider-1.svg" class="image-fluid w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/slider-2.svg" class="image-fluid w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end main body -->
+<!-- footer -->
+{{>footer}}
+
+<!-- end footer -->
+
+<body>
+</body>
+{{>script}}
+
+</html>
